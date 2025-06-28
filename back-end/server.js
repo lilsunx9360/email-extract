@@ -6,9 +6,10 @@ import multer from 'multer';
 import xlsx from 'xlsx';
 import validator from 'email-validator';
 import puppeteer from 'puppeteer';
-
+import dotenv from 'dotenv';
+dotenv.config();
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 // Configure multer for file uploads
 const upload = multer({ storage: multer.memoryStorage() });

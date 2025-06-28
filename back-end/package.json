@@ -3,6 +3,7 @@
     "axios": "^1.10.0",
     "cheerio": "^1.1.0",
     "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
     "email-validator": "^2.0.4",
     "express": "^5.1.0",
     "multer": "^2.0.1",
